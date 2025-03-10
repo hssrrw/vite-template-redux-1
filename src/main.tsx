@@ -14,7 +14,7 @@ if (container) {
   root.render(
     <React.StrictMode>
       <Provider store={store}>
-        <Router>
+        <Router basename="/vite-template-redux-1/">
           <App />
         </Router>
       </Provider>
