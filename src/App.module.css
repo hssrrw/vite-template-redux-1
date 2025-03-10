@@ -1,0 +1,17 @@
+html {
+  min-height: 100dvh;
+}
+body {
+  min-height: 100dvh;
+}
+
+.app {
+  font-family: sans-serif;
+  min-height: 100dvh;
+  background-color: lightgray;
+}
+
+p {
+  text-align: left;
+}
+

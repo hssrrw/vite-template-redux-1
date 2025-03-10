@@ -1,0 +1,73 @@
+.plantsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plantsContent {
+  padding: 1rem;
+  max-width: 1000px;
+}
+
+.productGrid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+h2 {
+  text-align: center;
+}
+
+.productCard {
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  background-color: white;
+}
+
+.productImage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.addButton {
+  appearance: none;
+  background: none;
+  border: 0;
+  font-size: 16px;
+  padding: 10px 20px;
+  outline: none;
+  color: white;
+  background-color: #4caf50;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #61dc67;
+}
+
+.addedButton {
+  appearance: none;
+  background: none;
+  border: 0;
+  font-size: 16px;
+  padding: 10px 20px;
+  outline: none;
+  color: white;
+  background-color: gray;
+  transition: all 0.15s;
+  cursor: not-allowed;
+}
+
+.addedButton:hover {
+  background-color: gray;
+}

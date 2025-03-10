@@ -1,0 +1,80 @@
+.cartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.productCard {
+  display: flex;
+  background-color: #f9f9f9;
+  width: 600px;
+  border-bottom: 1px solid lightgray;
+}
+
+.productImage {
+  width: 300px;
+  aspect-ratio: 1;
+}
+
+.productInfo{
+  padding-left: 2rem;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+}
+
+.total{
+  font-weight: bold;
+}
+
+.quantityInput {
+  width: 60px;
+}
+
+.deleteButton {
+  appearance: none;
+  background: none;
+  border: 0;
+  font-size: 16px;
+  padding: 10px 20px;
+  outline: none;
+  color: white;
+  background-color: #f44336;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #fd857d;
+}
+
+.cartSummary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cartSummary button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.button {
+  appearance: none;
+  background: none;
+  border: 0;
+  font-size: 16px;
+  padding: 10px 20px;
+  outline: none;
+  color: white;
+  background-color: #4caf50;
+  transition: all 0.15s;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.button:hover {
+  background-color: #61dc67;
+}
